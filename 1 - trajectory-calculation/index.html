@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main-wrapper">
+        <div class="input-container">
+            <span>
+                <label for="impulso-x">Impulso X:</label>
+                <input id="impulso-x" type="number" value="42">
+            </span>
+            <span>
+                <label for="impulso-y">Impulso Y:</label>
+                <input id="impulso-y" type="number" value="-87">
+            </span>
+            <span>
+                <label for="tempo">Duração (ms):</label>
+                <input id="tempo" type="number" value="1828">
+            </span>
+            <span>
+                <label for="posX">Pos. X:</label>
+                <input id="posX" type="number" value="50">
+            </span>
+            <span>
+                <label for="posY">Pos. Y:</label>
+                <input id="posY" type="number" value="400">
+            </span>
+            <span>
+                <button type="button" id="executar-btn">Executar</button>
+            </span>
+        </div>
+        <canvas id="canvas"></canvas>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
